@@ -1,0 +1,90 @@
+@import "partials/_variables.scss";
+@import "partials/_about.scss";
+@import "partials/_jubala.scss";
+
+* {
+  font-family:$primary-font;
+}
+
+header {
+  background:linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url('../images/alex-knight-192782.jpg');
+  height:100vh;
+  filter: grayscale(100%);
+  background-size:cover;
+}
+nav {
+  display:flex;
+  justify-content: space-between;
+}
+.logo {
+  margin:1% 0% 0% 5%;
+}
+.logo-white {
+  height:100px;
+}
+.menu {
+  a {
+    color:$primary-color;
+  }
+  font-weight:lighter;
+  margin-right:5%;
+  li {
+    list-style:none;
+    float:left;
+    margin:0% 0% 0% 0%;
+    font-size:24px;
+    padding:0px 20px 0px 20px;
+  }
+  .home {
+    border:1px solid white;
+  }
+}
+.name, .title {
+  color:$primary-color;
+  display:flex;
+  justify-content: center;
+  font-weight:lighter;
+  line-height: .5;
+}
+.name {
+  font-size:48px;
+}
+.me {
+  margin-top:17%;
+  margin-left:4%;
+}
+.content {
+    background:$background;
+    a {
+      text-decoration: none;
+      color:black;
+    }
+}
+.my-work {
+  text-align:center;
+  overflow:hidden;
+  .work-title {
+    font-size:48px;
+    font-weight:300;
+    line-height: 0
+  }
+  h1, h2, h3 {
+    font-weight:300;
+  }
+
+}
+.web {
+  display:flex;
+  justify-content: space-around;
+}
+.saving-grace, .goodreads {
+  height:40vh;
+}
+.mobile {
+  display:flex;
+  justify-content: space-around;
+  margin: 5% 10% 0% 10%;
+}
+.jubala, .weather-app {
+  height:50vh;
+}

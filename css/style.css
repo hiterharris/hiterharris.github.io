@@ -1,0 +1,149 @@
+#about * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#about nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#about .logo {
+  margin: 1% 0% 0% 5%; }
+#about .logo-black {
+  height: 100px; }
+#about .menu-black {
+  font-weight: lighter;
+  margin-right: 5%; }
+  #about .menu-black a {
+    color: black; }
+  #about .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #about .menu-black .about {
+    border: 1px solid black; }
+#about .project-content h1, #about .project-content h2, #about .project-content h3 {
+  font-weight: 300; }
+#about .project-content .project-title {
+  text-align: center; }
+
+#jubala * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#jubala nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#jubala .logo {
+  margin: 1% 0% 0% 5%; }
+#jubala .logo-black {
+  height: 100px; }
+#jubala .menu-black {
+  font-weight: lighter;
+  margin-right: 5%; }
+  #jubala .menu-black a {
+    color: black; }
+  #jubala .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #jubala .menu-black .about {
+    border: 1px solid black; }
+#jubala .project-content h1, #jubala .project-content h2, #jubala .project-content h3 {
+  font-weight: 300; }
+#jubala .project-content .project-title {
+  text-align: center; }
+#jubala .project-content .project-info {
+  border: 1px solid black;
+  width: 50%; }
+#jubala .project-content iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(0.5); }
+
+* {
+  font-family: "lato"; }
+
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/alex-knight-192782.jpg");
+  height: 100vh;
+  filter: grayscale(100%);
+  background-size: cover; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  margin: 1% 0% 0% 5%; }
+
+.logo-white {
+  height: 100px; }
+
+.menu {
+  font-weight: lighter;
+  margin-right: 5%; }
+  .menu a {
+    color: white; }
+  .menu li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  .menu .home {
+    border: 1px solid white; }
+
+.name, .title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  line-height: .5; }
+
+.name {
+  font-size: 48px; }
+
+.me {
+  margin-top: 17%;
+  margin-left: 4%; }
+
+.content {
+  background: #F8F9FE; }
+  .content a {
+    text-decoration: none;
+    color: black; }
+
+.my-work {
+  text-align: center;
+  overflow: hidden; }
+  .my-work .work-title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 0; }
+  .my-work h1, .my-work h2, .my-work h3 {
+    font-weight: 300; }
+
+.web {
+  display: flex;
+  justify-content: space-around; }
+
+.saving-grace, .goodreads {
+  height: 40vh; }
+
+.mobile {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10% 0% 10%; }
+
+.jubala, .weather-app {
+  height: 50vh; }
+
+/*# sourceMappingURL=style.css.map */
