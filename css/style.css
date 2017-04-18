@@ -22,7 +22,13 @@
     margin: 0% 0% 0% 0%;
     font-size: 24px;
     padding: 0px 20px 0px 20px; }
+  #about .menu-black .home {
+    border: 1px solid transparent; }
+  #about .menu-black .work {
+    border: 1px solid transparent; }
   #about .menu-black .about {
+    border: 1px solid transparent; }
+  #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
     border: 1px solid black; }
 #about .project-content h1, #about .project-content h2, #about .project-content h3 {
   font-weight: 300; }
@@ -87,7 +93,8 @@
   margin-top: 5%; }
   #jubala .mockups img {
     height: 50vh;
-    margin: 10px 50px; }
+    margin: 10px 50px;
+    border: 1px solid black; }
 
 * {
   font-family: "lato"; }
@@ -120,6 +127,12 @@ nav {
     font-size: 24px;
     padding: 0px 20px 0px 20px; }
   .menu .home {
+    border: 1px solid transparent; }
+  .menu .work {
+    border: 1px solid transparent; }
+  .menu .about {
+    border: 1px solid transparent; }
+  .menu .home:hover, .menu .work:hover, .menu .about:hover {
     border: 1px solid white; }
 
 .name, .title {

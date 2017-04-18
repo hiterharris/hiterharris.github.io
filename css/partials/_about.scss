@@ -29,7 +29,16 @@ nav {
     font-size:24px;
     padding:0px 20px 0px 20px;
   }
+  .home {
+    border:1px solid transparent;
+  }
+  .work {
+    border:1px solid transparent;
+  }
   .about {
+    border:1px solid transparent;
+  }
+  .home:hover, .work:hover, .about:hover {
     border:1px solid black;
   }
 }
