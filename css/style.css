@@ -59,7 +59,13 @@
     margin: 0% 0% 0% 0%;
     font-size: 24px;
     padding: 0px 20px 0px 20px; }
+  #jubala .menu-black .home {
+    border: 1px solid transparent; }
   #jubala .menu-black .work {
+    border: 1px solid transparent; }
+  #jubala .menu-black .about {
+    border: 1px solid transparent; }
+  #jubala .menu-black .home:hover, #jubala .menu-black .work:hover, #jubala .menu-black .about:hover {
     border: 1px solid black; }
 #jubala .project-content h1, #jubala .project-content h2, #jubala .project-content h3 {
   font-weight: 300; }
@@ -78,19 +84,19 @@
   margin: 15% 5% 0% 0%; }
 #jubala .sketches {
   text-align: center;
-  margin-top: 5%; }
+  margin: 2% 0%; }
   #jubala .sketches img {
     height: 75vh;
     margin: 0 50px; }
 #jubala .wireframes {
   text-align: center;
-  margin-top: 5%; }
+  margin: 2% 0%; }
   #jubala .wireframes img {
     height: 60vh;
     margin: 0 50px; }
 #jubala .mockups {
   text-align: center;
-  margin-top: 5%; }
+  margin: 2% 0%; }
   #jubala .mockups img {
     height: 50vh;
     margin: 10px 50px;
@@ -190,6 +196,15 @@ nav {
   margin: 0% 1% 1% 0%;
   background: none;
   border: 1px solid black;
-  display: none; }
+  display: none;
+  overflow: hidden; }
+
+.arrow {
+  height: 30px;
+  padding-top: 3px; }
+
+hr {
+  width: 75%;
+  margin-top: 5%; }
 
 /*# sourceMappingURL=style.css.map */

@@ -97,7 +97,6 @@ nav {
 .jubala, .weather-app {
   height:50vh;
 }
-
 .btnTop {
   height:50px;
   width:50px;
@@ -109,4 +108,14 @@ nav {
   background:none;
   border:1px solid black;
   display:none;
+  overflow:hidden;
+}
+.arrow {
+  height:30px;
+  padding-top:3px;
+}
+
+hr {
+  width:75%;
+  margin-top:5%;
 }
