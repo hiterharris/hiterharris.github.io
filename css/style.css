@@ -140,9 +140,19 @@
   text-align: center; }
 #goodreads .project-info {
   border: 1px solid black;
-  width: 50%;
+  width: 40%;
   margin: 2.5% 0% 0% 5%;
   padding: 0px 25px 25px 0px; }
+#goodreads .project-preview {
+  margin: auto; }
+  #goodreads .project-preview img {
+    height: 50vh; }
+  #goodreads .project-preview h1 {
+    text-align: center;
+    color: black;
+    text-decoration: inherit; }
+#goodreads .flex-content {
+  display: flex; }
 #goodreads .logo-design {
   text-align: center; }
   #goodreads .logo-design img {
@@ -168,6 +178,84 @@
     border: 1px solid black; }
   #goodreads .mockups .goodreads-tablet {
     height: 75vh; }
+
+#savinggrace * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#savinggrace nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#savinggrace .logo {
+  margin: 1% 0% 0% 5%; }
+#savinggrace .logo-black {
+  height: 100px; }
+#savinggrace .menu-black {
+  font-weight: lighter;
+  margin-right: 5%; }
+  #savinggrace .menu-black a {
+    color: black; }
+  #savinggrace .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #savinggrace .menu-black .home {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .work {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .about {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .home:hover, #savinggrace .menu-black .work:hover, #savinggrace .menu-black .about:hover {
+    border: 1px solid black; }
+#savinggrace .project-content h1, #savinggrace .project-content h2, #savinggrace .project-content h3 {
+  font-weight: 300; }
+#savinggrace .project-title {
+  text-align: center; }
+#savinggrace .project-info {
+  border: 1px solid black;
+  width: 40%;
+  margin: 2.5% 0% 0% 5%;
+  padding: 0px 25px 25px 0px; }
+#savinggrace .project-preview {
+  margin: auto; }
+  #savinggrace .project-preview img {
+    height: 50vh; }
+  #savinggrace .project-preview h1 {
+    text-align: center;
+    color: black;
+    text-decoration: inherit; }
+#savinggrace .flex-content {
+  display: flex; }
+#savinggrace .logo-design {
+  text-align: center; }
+  #savinggrace .logo-design img {
+    height: 10vh;
+    margin: 2%; }
+#savinggrace .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .sketches img {
+    height: 50vh;
+    margin: 0 50px; }
+#savinggrace .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .wireframes img {
+    height: 50vh;
+    margin: 0 50px; }
+#savinggrace .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: 1px solid black; }
+  #savinggrace .mockups .mockup-vh {
+    height: 125vh; }
 
 * {
   font-family: "lato"; }

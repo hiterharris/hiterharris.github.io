@@ -1,4 +1,4 @@
-#goodreads {
+#savinggrace {
 * {
   background:$background;
   overflow:hidden;
@@ -60,12 +60,12 @@ nav {
   img {
     height:50vh;
   }
+  margin:auto;
   h1 {
     text-align: center;
     color:black;
     text-decoration: inherit;
   }
-  margin:auto;
 }
 .flex-content {
   display:flex;
@@ -74,7 +74,8 @@ nav {
 .logo-design {
   text-align: center;
   img {
-    height:50vh;
+    height:10vh;
+    margin:2%;
   }
 }
 
@@ -82,7 +83,7 @@ nav {
   text-align:center;
   margin:2% 0%;
   img {
-    height:75vh;
+    height:50vh;
     margin: 0 50px;
   }
 }
@@ -102,8 +103,8 @@ nav {
     margin: 10px 50px;
     border:1px solid black;
   }
-  .goodreads-tablet {
-    height:75vh;
+  .mockup-vh {
+    height:125vh;
   }
 }
 
