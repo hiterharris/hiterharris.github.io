@@ -102,6 +102,73 @@
     margin: 10px 50px;
     border: 1px solid black; }
 
+#goodreads * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#goodreads nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#goodreads .logo {
+  margin: 1% 0% 0% 5%; }
+#goodreads .logo-black {
+  height: 100px; }
+#goodreads .menu-black {
+  font-weight: lighter;
+  margin-right: 5%; }
+  #goodreads .menu-black a {
+    color: black; }
+  #goodreads .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #goodreads .menu-black .home {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .work {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .about {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .home:hover, #goodreads .menu-black .work:hover, #goodreads .menu-black .about:hover {
+    border: 1px solid black; }
+#goodreads .project-content h1, #goodreads .project-content h2, #goodreads .project-content h3 {
+  font-weight: 300; }
+#goodreads .project-title {
+  text-align: center; }
+#goodreads .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 2.5% 0% 0% 5%;
+  padding: 0px 25px 25px 0px; }
+#goodreads .logo-design {
+  text-align: center; }
+  #goodreads .logo-design img {
+    height: 50vh; }
+#goodreads .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .sketches img {
+    height: 75vh;
+    margin: 0 50px; }
+#goodreads .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .wireframes img {
+    height: 50vh;
+    margin: 0 50px; }
+#goodreads .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: 1px solid black; }
+  #goodreads .mockups .goodreads-tablet {
+    height: 75vh; }
+
 * {
   font-family: "lato"; }
 
