@@ -9,7 +9,7 @@
 }
 
 header {
-  background:linear-gradient(rgba(0,0,0,.25), rgba(0,0,0,.25)), url('../images/alex-knight-192782.jpg');
+  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)), url('../images/alex-knight-192782.jpg');
   height:100vh;
   filter: grayscale(100%);
   background-size:cover;
@@ -28,7 +28,7 @@ nav {
   a {
     color:$primary-color;
   }
-  font-weight:lighter;
+  font-weight:300;
   margin-right:5%;
   li {
     list-style:none;
