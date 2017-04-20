@@ -1,39 +1,39 @@
-#about * {
-  background: #F8F9FE;
-  overflow: hidden;
-  font-family: "lato"; }
-#about nav {
-  display: flex;
-  justify-content: space-between;
-  border-bottom: 1px solid black;
-  padding-bottom: 20px; }
-#about .logo {
-  margin: 1% 0% 0% 5%; }
-#about .logo-black {
-  height: 100px; }
-#about .menu-black {
-  font-weight: lighter;
-  margin-right: 5%; }
-  #about .menu-black a {
-    color: black; }
-  #about .menu-black li {
-    list-style: none;
-    float: left;
-    margin: 0% 0% 0% 0%;
-    font-size: 24px;
-    padding: 0px 20px 0px 20px; }
-  #about .menu-black .home {
-    border: 1px solid transparent; }
-  #about .menu-black .work {
-    border: 1px solid transparent; }
-  #about .menu-black .about {
-    border: 1px solid transparent; }
-  #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
-    border: 1px solid black; }
-#about .project-content h1, #about .project-content h2, #about .project-content h3 {
-  font-weight: 300; }
-#about .project-content .project-title {
-  text-align: center; }
+#about {
+  background: #F8F9FE; }
+  #about * {
+    overflow: hidden;
+    font-family: "lato"; }
+  #about nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px; }
+  #about .logo {
+    margin: 1% 0% 0% 5%; }
+  #about .logo-black {
+    height: 100px; }
+  #about .menu-black {
+    font-weight: lighter;
+    margin-right: 5%; }
+    #about .menu-black a {
+      color: black; }
+    #about .menu-black li {
+      list-style: none;
+      float: left;
+      margin: 0% 0% 0% 0%;
+      font-size: 24px;
+      padding: 0px 20px 0px 20px; }
+    #about .menu-black .home {
+      border: 1px solid transparent; }
+    #about .menu-black .work {
+      border: 1px solid transparent; }
+    #about .menu-black .about {
+      border: 1px solid transparent; }
+    #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
+      border: 1px solid black; }
+  #about .content h1, #about .content h2, #about .content h3 {
+    font-weight: 300;
+    text-align: center; }
 
 #jubala * {
   background: #F8F9FE;

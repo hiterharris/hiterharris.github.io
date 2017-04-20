@@ -1,6 +1,6 @@
 #about {
+background:$background;
 * {
-  background:$background;
   overflow:hidden;
   font-family: $primary-font;
 }
@@ -42,11 +42,9 @@ nav {
     border:1px solid black;
   }
 }
-.project-content {
+.content {
   h1, h2, h3 {
     font-weight:300;
-  }
-  .project-title {
     text-align: center;
   }
 }
