@@ -1,63 +1,379 @@
-/*
-Error: File to import not found or unreadable: partials/_mediaqueries.scss.
-       Load path: /Users/HiterHarrisIV/Desktop/Portfolio/hiterharris.github.io/css
-        on line 6 of css/style.scss
+#about {
+  background: #F8F9FE; }
+  #about * {
+    overflow: hidden;
+    font-family: "lato"; }
+  #about nav {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    padding-bottom: 20px; }
+  #about .logo {
+    margin: 1% 0% 0% 5%; }
+  #about .logo-black {
+    height: 100px; }
+  #about .menu-black {
+    font-weight: 300;
+    margin-right: 5%; }
+    #about .menu-black a {
+      color: black; }
+    #about .menu-black li {
+      list-style: none;
+      float: left;
+      margin: 0% 0% 0% 0%;
+      font-size: 24px;
+      padding: 0px 20px 0px 20px; }
+    #about .menu-black .home {
+      border: 1px solid transparent; }
+    #about .menu-black .work {
+      border: 1px solid transparent; }
+    #about .menu-black .about {
+      border: 1px solid transparent; }
+    #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
+      border: 1px solid black; }
+  #about .content h1, #about .content h2, #about .content h3 {
+    font-weight: 300;
+    text-align: center; }
 
-1: @import "partials/_variables.scss";
-2: @import "partials/_about.scss";
-3: @import "partials/_jubala.scss";
-4: @import "partials/_goodreads.scss";
-5: @import "partials/_savinggrace.scss";
-6: @import "partials/_mediaqueries.scss";
-7: 
-8: * {
-9:   font-family:$primary-font;
-10: }
-11: 
+#jubala * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#jubala nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#jubala .logo {
+  margin: 1% 0% 0% 5%; }
+#jubala .logo-black {
+  height: 100px; }
+#jubala .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #jubala .menu-black a {
+    color: black; }
+  #jubala .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #jubala .menu-black .home {
+    border: 1px solid transparent; }
+  #jubala .menu-black .work {
+    border: 1px solid transparent; }
+  #jubala .menu-black .about {
+    border: 1px solid transparent; }
+  #jubala .menu-black .home:hover, #jubala .menu-black .work:hover, #jubala .menu-black .about:hover {
+    border: 1px solid black; }
+#jubala .project-content h1, #jubala .project-content h2, #jubala .project-content h3 {
+  font-weight: 300; }
+#jubala .project-title {
+  text-align: center; }
+#jubala .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 2.5% 0% 0% 5%;
+  padding: 0px 25px 25px 0px;
+  line-height: 2; }
+#jubala iframe {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: scale(0.75);
+  margin: 15% 5% 0% 0%; }
+#jubala .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .sketches img {
+    height: 75vh;
+    margin: 0 50px; }
+#jubala .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .wireframes img {
+    height: 60vh;
+    margin: 0 50px; }
+#jubala .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: 1px solid black; }
 
-Backtrace:
-css/style.scss:6
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:67:in `rescue in import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:45:in `import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:28:in `imported_file'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/import_node.rb:37:in `css_import?'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:313:in `visit_import'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `block in with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:115:in `with_frame'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/stack.rb:79:in `with_base'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:160:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `map'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:169:in `block in visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:181:in `with_environment'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:168:in `visit_children'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:188:in `visit_root'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/base.rb:36:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:159:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/visitors/perform.rb:8:in `visit'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:36:in `css_tree'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:381:in `_render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/engine.rb:298:in `render_with_sourcemap'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `each'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:473:in `on_file_changed'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/lib/sass/plugin/compiler.rb:331:in `block in watch'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `call'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:254:in `report_changes'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:323:in `poll_changed_directories'
-/Library/Ruby/Gems/2.0.0/gems/sass-3.4.23/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: File to import not found or unreadable: partials/_mediaqueries.scss.\A        Load path: /Users/HiterHarrisIV/Desktop/Portfolio/hiterharris.github.io/css\A         on line 6 of css/style.scss\A \A 1: @import \"partials/_variables.scss\";\A 2: @import \"partials/_about.scss\";\A 3: @import \"partials/_jubala.scss\";\A 4: @import \"partials/_goodreads.scss\";\A 5: @import \"partials/_savinggrace.scss\";\A 6: @import \"partials/_mediaqueries.scss\";\A 7: \A 8: * {\A 9:   font-family:$primary-font;\A 10: }\A 11: "; }
+#goodreads * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#goodreads nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#goodreads .logo {
+  margin: 1% 0% 0% 5%; }
+#goodreads .logo-black {
+  height: 100px; }
+#goodreads .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #goodreads .menu-black a {
+    color: black; }
+  #goodreads .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #goodreads .menu-black .home {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .work {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .about {
+    border: 1px solid transparent; }
+  #goodreads .menu-black .home:hover, #goodreads .menu-black .work:hover, #goodreads .menu-black .about:hover {
+    border: 1px solid black; }
+#goodreads .project-content h1, #goodreads .project-content h2, #goodreads .project-content h3 {
+  font-weight: 300; }
+#goodreads .project-title {
+  text-align: center; }
+#goodreads .flex-content {
+  display: flex; }
+#goodreads .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 2%;
+  padding: 0px 25px 25px 0px;
+  line-height: 2; }
+#goodreads .project-preview {
+  width: 50%;
+  margin: 0 2%; }
+  #goodreads .project-preview img {
+    width: 100%; }
+  #goodreads .project-preview h1 {
+    text-align: center;
+    color: black;
+    text-decoration: inherit; }
+#goodreads .logo-design {
+  text-align: center; }
+  #goodreads .logo-design img {
+    height: 50vh; }
+#goodreads .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .sketches img {
+    height: 75vh;
+    margin: 0 50px; }
+#goodreads .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .wireframes img {
+    height: 50vh;
+    margin: 0 50px; }
+#goodreads .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #goodreads .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: 1px solid black; }
+  #goodreads .mockups .goodreads-tablet {
+    height: 75vh; }
+
+#savinggrace * {
+  background: #F8F9FE;
+  overflow: hidden;
+  font-family: "lato"; }
+#savinggrace nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#savinggrace .logo {
+  margin: 1% 0% 0% 5%; }
+#savinggrace .logo-black {
+  height: 100px; }
+#savinggrace .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #savinggrace .menu-black a {
+    color: black; }
+  #savinggrace .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #savinggrace .menu-black .home {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .work {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .about {
+    border: 1px solid transparent; }
+  #savinggrace .menu-black .home:hover, #savinggrace .menu-black .work:hover, #savinggrace .menu-black .about:hover {
+    border: 1px solid black; }
+#savinggrace .project-content h1, #savinggrace .project-content h2, #savinggrace .project-content h3 {
+  font-weight: 300; }
+#savinggrace .project-title {
+  text-align: center; }
+#savinggrace .flex-content {
+  display: flex; }
+#savinggrace .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 2%;
+  padding: 0px 25px 25px 0px;
+  line-height: 2; }
+#savinggrace .project-preview {
+  width: 50%;
+  margin: 0 2%; }
+  #savinggrace .project-preview img {
+    width: 100%; }
+  #savinggrace .project-preview h1 {
+    text-align: center;
+    color: black;
+    text-decoration: inherit; }
+#savinggrace .logo-design {
+  text-align: center; }
+  #savinggrace .logo-design img {
+    height: 10vh;
+    margin: 2%; }
+#savinggrace .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .sketches img {
+    height: 50vh;
+    margin: 0 50px; }
+#savinggrace .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .wireframes img {
+    height: 50vh;
+    margin: 0 50px; }
+#savinggrace .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #savinggrace .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: 1px solid black; }
+  #savinggrace .mockups .mockup-vh {
+    height: 125vh; }
+
+@media (max-width: 767px) {
+  .flex-content {
+    display: flex;
+    flex-wrap: wrap-reverse; } }
+* {
+  font-family: "lato"; }
+
+header {
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.2)), url("../images/alex-knight-192782.jpg");
+  filter: grayscale(100%);
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+nav {
+  display: flex;
+  justify-content: space-between; }
+
+.logo {
+  margin: 1% 0% 0% 5%; }
+
+.logo-white {
+  height: 100px; }
+
+.menu {
+  font-weight: 300;
+  margin-right: 5%; }
+  .menu a {
+    color: white; }
+  .menu li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  .menu .home {
+    border: 1px solid transparent; }
+  .menu .work {
+    border: 1px solid transparent; }
+  .menu .about {
+    border: 1px solid transparent; }
+  .menu .home:hover, .menu .work:hover, .menu .about:hover {
+    border: 1px solid white; }
+
+.name, .title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  font-weight: lighter;
+  line-height: .5; }
+
+.name {
+  font-size: 48px; }
+
+.me {
+  margin-top: 25vh;
+  margin-left: 4%; }
+
+.content {
+  background: #F8F9FE; }
+  .content a {
+    text-decoration: none;
+    color: black; }
+
+.my-work {
+  text-align: center;
+  overflow: hidden; }
+  .my-work .work-title {
+    font-size: 48px;
+    font-weight: 300;
+    line-height: 0; }
+  .my-work h1, .my-work h2, .my-work h3 {
+    font-weight: 300; }
+
+.web {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap; }
+
+.web-img-container {
+  width: 500px; }
+
+.web-img {
+  width: 90%; }
+
+.mobile {
+  display: flex;
+  justify-content: space-around;
+  margin: 5% 10% 0% 10%; }
+
+.jubala {
+  width: 50%; }
+
+.btnTop {
+  height: 50px;
+  width: 50px;
+  border-radius: 10px;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0% 1% 1% 0%;
+  background: none;
+  border: 1px solid black;
+  display: none;
+  overflow: hidden; }
+
+.arrow {
+  height: 30px;
+  padding-top: 3px; }
+
+hr {
+  width: 75%;
+  margin-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */

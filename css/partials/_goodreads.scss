@@ -50,30 +50,29 @@ nav {
 .project-title {
   text-align: center;
 }
+.flex-content {
+  display:flex;
+}
+
 .project-info {
   border:1px solid black;
-  width:40%;
-  margin:2.5% 0% 0% 5%;
+  width:50%;
+  margin:0 2%;
   padding:0px 25px 25px 0px;
   line-height: 2;
 }
 .project-preview {
+  width:50%;
+  margin:0 2%;
   img {
-    height:50vh;
+    width:100%;
   }
   h1 {
     text-align: center;
     color:black;
     text-decoration: inherit;
   }
-  margin-left:3%;
-  margin-top:3%;
 }
-.flex-content {
-  display:flex;
-  flex-wrap:wrap-reverse;
-}
-
 .logo-design {
   text-align: center;
   img {
