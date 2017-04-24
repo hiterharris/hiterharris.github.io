@@ -3,16 +3,18 @@
 @import "partials/_jubala.scss";
 @import "partials/_goodreads.scss";
 @import "partials/_savinggrace.scss";
+@import "partials/_mediaqueries.scss";
 
 * {
   font-family:$primary-font;
 }
 
 header {
-  background:linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.1)), url('../images/alex-knight-192782.jpg');
-  height:100vh;
+  background:linear-gradient(rgba(0,0,0,0), rgba(0,0,0,.2)), url('../images/alex-knight-192782.jpg');
   filter: grayscale(100%);
+  height:100vh;
   background-size:cover;
+  background-position:center;
 }
 nav {
   display:flex;
@@ -61,7 +63,7 @@ nav {
   font-size:48px;
 }
 .me {
-  margin-top:17%;
+  margin-top:12%;
   margin-left:4%;
 }
 .content {
@@ -82,11 +84,11 @@ nav {
   h1, h2, h3 {
     font-weight:300;
   }
-
 }
 .web {
   display:flex;
   justify-content: space-around;
+  flex-wrap:wrap;
 }
 .saving-grace, .goodreads {
   height:40vh;
