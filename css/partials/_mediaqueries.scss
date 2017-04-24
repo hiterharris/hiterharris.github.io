@@ -1,6 +1,32 @@
+@media (max-width:1200px) {
+  #jubala .project-preview {
+    margin:auto;
+  }
+  #jubala .project-info {
+    margin:auto;
+    width:90%;
+  }
+}
+
 @media (max-width:767px) {
   .flex-content {
     display:flex;
     flex-wrap: wrap-reverse;
+  }
+  #savinggrace .project-preview {
+    margin: auto;
+    width:75%;
+  }
+  #savinggrace .project-info {
+    margin:auto;
+    width:90%;
+  }
+  #goodreads .project-preview {
+    margin: auto;
+    width:75%;
+  }
+  #goodreads .project-info {
+    margin:auto;
+    width:90%;
   }
 }

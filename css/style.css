@@ -71,23 +71,22 @@
   font-weight: 300; }
 #jubala .project-title {
   text-align: center; }
+#jubala .flex-content {
+  display: flex;
+  flex-wrap: wrap-reverse; }
 #jubala .project-info {
   border: 1px solid black;
   width: 50%;
-  margin: 2.5% 0% 0% 5%;
+  margin: 2.5% 5% 0% 5%;
   padding: 0px 25px 25px 0px;
   line-height: 2; }
 #jubala iframe {
-  position: absolute;
-  top: 0;
-  right: 0;
-  transform: scale(0.75);
-  margin: 15% 5% 0% 0%; }
+  transform: scale(0.75); }
 #jubala .sketches {
   text-align: center;
   margin: 2% 0%; }
   #jubala .sketches img {
-    height: 75vh;
+    width: 30%;
     margin: 0 50px; }
 #jubala .wireframes {
   text-align: center;
@@ -159,28 +158,28 @@
 #goodreads .logo-design {
   text-align: center; }
   #goodreads .logo-design img {
-    height: 50vh; }
+    width: 60%; }
 #goodreads .sketches {
   text-align: center;
   margin: 2% 0%; }
   #goodreads .sketches img {
-    height: 75vh;
+    width: 40%;
     margin: 0 50px; }
 #goodreads .wireframes {
   text-align: center;
   margin: 2% 0%; }
   #goodreads .wireframes img {
-    height: 50vh;
+    width: 40%;
     margin: 0 50px; }
 #goodreads .mockups {
   text-align: center;
   margin: 2% 0%; }
   #goodreads .mockups img {
-    height: 50vh;
+    width: 40%;
     margin: 10px 50px;
     border: 1px solid black; }
   #goodreads .mockups .goodreads-tablet {
-    height: 75vh; }
+    width: 40%; }
 
 #savinggrace * {
   background: #F8F9FE;
@@ -244,28 +243,49 @@
   text-align: center;
   margin: 2% 0%; }
   #savinggrace .sketches img {
-    height: 50vh;
+    width: 40%;
     margin: 0 50px; }
 #savinggrace .wireframes {
   text-align: center;
   margin: 2% 0%; }
   #savinggrace .wireframes img {
-    height: 50vh;
+    width: 40%;
     margin: 0 50px; }
 #savinggrace .mockups {
   text-align: center;
   margin: 2% 0%; }
   #savinggrace .mockups img {
-    height: 50vh;
+    width: 20%;
     margin: 10px 50px;
     border: 1px solid black; }
-  #savinggrace .mockups .mockup-vh {
-    height: 125vh; }
 
+@media (max-width: 1200px) {
+  #jubala .project-preview {
+    margin: auto; }
+
+  #jubala .project-info {
+    margin: auto;
+    width: 90%; } }
 @media (max-width: 767px) {
   .flex-content {
     display: flex;
-    flex-wrap: wrap-reverse; } }
+    flex-wrap: wrap-reverse; }
+
+  #savinggrace .project-preview {
+    margin: auto;
+    width: 75%; }
+
+  #savinggrace .project-info {
+    margin: auto;
+    width: 90%; }
+
+  #goodreads .project-preview {
+    margin: auto;
+    width: 75%; }
+
+  #goodreads .project-info {
+    margin: auto;
+    width: 90%; } }
 * {
   font-family: "lato"; }
 
