@@ -6,6 +6,12 @@
     margin:auto;
     width:90%;
   }
+  #savinggrace .sketches img {
+    width:60%;
+  }
+  #savinggrace .mockups img {
+    width:30%;
+  }
 }
 
 @media (max-width:767px) {
@@ -21,6 +27,7 @@
     margin:auto;
     width:90%;
   }
+
   #goodreads .project-preview {
     margin: auto;
     width:75%;
@@ -28,5 +35,14 @@
   #goodreads .project-info {
     margin:auto;
     width:90%;
+  }
+}
+
+@media (max-width: 520px) {
+  #savinggrace .mockups img {
+    width:60%;
+  }
+  #jubala .sketches img {
+    width:60%;
   }
 }
