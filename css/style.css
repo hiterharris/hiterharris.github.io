@@ -37,8 +37,8 @@
 
 #jubala * {
   background: #F8F9FE;
-  overflow: hidden;
-  font-family: "lato"; }
+  font-family: "lato";
+  list-style: none; }
 #jubala nav {
   display: flex;
   justify-content: space-between;
@@ -104,8 +104,8 @@
 
 #goodreads * {
   background: #F8F9FE;
-  overflow: hidden;
-  font-family: "lato"; }
+  font-family: "lato";
+  list-style: none; }
 #goodreads nav {
   display: flex;
   justify-content: space-between;
@@ -183,8 +183,8 @@
 
 #savinggrace * {
   background: #F8F9FE;
-  overflow: hidden;
-  font-family: "lato"; }
+  font-family: "lato";
+  list-style: none; }
 #savinggrace nav {
   display: flex;
   justify-content: space-between;

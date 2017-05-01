@@ -1,8 +1,8 @@
 #savinggrace {
 * {
   background:$background;
-  overflow:hidden;
   font-family: $primary-font;
+  list-style:none;
 }
 nav {
   display:flex;
@@ -45,6 +45,7 @@ nav {
 .project-content {
   h1, h2, h3 {
     font-weight:300;
+
   }
 }
 .project-title {

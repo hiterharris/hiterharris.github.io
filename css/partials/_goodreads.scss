@@ -1,8 +1,8 @@
 #goodreads {
 * {
   background:$background;
-  overflow:hidden;
   font-family: $primary-font;
+  list-style:none;
 }
 nav {
   display:flex;
