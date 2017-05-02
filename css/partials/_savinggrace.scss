@@ -1,8 +1,12 @@
 #savinggrace {
 * {
   background:$background;
-  font-family: $primary-font;
+  font-family: $primary-font, $secondary-font;
   list-style:none;
+}
+h1 {
+  margin:0;
+  padding:20px;
 }
 nav {
   display:flex;

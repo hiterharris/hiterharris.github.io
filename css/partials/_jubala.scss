@@ -1,8 +1,12 @@
 #jubala {
 * {
   background:$background;
-  font-family: $primary-font;
+  font-family: $primary-font, $secondary-font;
   list-style:none;
+}
+h1 {
+  margin:0;
+  padding:20px;
 }
 nav {
   display:flex;
@@ -58,7 +62,7 @@ nav {
   border:1px solid black;
   width:50%;
   margin:2.5% 5% 0% 5%;
-  padding:0px 25px 25px 0px;
+  padding:0px 0px 25px 0px;
   line-height: 2;
 }
 iframe {

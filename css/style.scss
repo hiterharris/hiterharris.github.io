@@ -6,7 +6,7 @@
 @import "partials/_mediaqueries.scss";
 
 * {
-  font-family:$primary-font;
+  font-family:$primary-font, $secondary-font;
 }
 
 header {
