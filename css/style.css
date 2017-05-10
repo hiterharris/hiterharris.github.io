@@ -84,6 +84,11 @@
   line-height: 2; }
 #jubala iframe {
   transform: scale(0.75); }
+#jubala .tools-links {
+  border: 1px solid black;
+  margin-top: 10%; }
+  #jubala .tools-links li {
+    margin: 5%; }
 #jubala .sketches {
   text-align: center;
   margin: 2% 0%; }
@@ -160,6 +165,11 @@
     text-align: center;
     color: black;
     text-decoration: inherit; }
+#goodreads .tools-links {
+  border: 1px solid black;
+  margin-top: 10%; }
+  #goodreads .tools-links li {
+    margin: 5%; }
 #goodreads .logo-design {
   text-align: center; }
   #goodreads .logo-design img {
@@ -242,6 +252,11 @@
     text-align: center;
     color: black;
     text-decoration: inherit; }
+#savinggrace .tools-links {
+  border: 1px solid black;
+  margin-top: 10%; }
+  #savinggrace .tools-links li {
+    margin: 5%; }
 #savinggrace .logo-design {
   text-align: center; }
   #savinggrace .logo-design img {

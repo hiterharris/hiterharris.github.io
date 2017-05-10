@@ -68,6 +68,13 @@ nav {
 iframe {
   transform: scale(0.75);
 }
+.tools-links {
+  border: 1px solid black;
+  margin-top:10%;
+  li {
+    margin:5%;
+  }
+}
 .sketches {
   text-align:center;
   margin:2% 0%;
