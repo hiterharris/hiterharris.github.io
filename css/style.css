@@ -1,38 +1,85 @@
-#about {
-  background: #F8F9FE; }
-  #about * {
-    font-family: "lato", "sans-serif"; }
-  #about nav {
-    display: flex;
-    justify-content: space-between;
-    border-bottom: 1px solid black;
-    padding-bottom: 20px; }
-  #about .logo {
-    margin: 1% 0% 0% 5%; }
-  #about .logo-black {
-    height: 100px; }
-  #about .menu-black {
+#about body {
+  background: #F8F9FE;
+  font-family: "lato", "sans-serif";
+  list-style: none; }
+#about h1 {
+  margin: 0;
+  padding: 20px; }
+#about nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#about .logo {
+  margin: 1% 0% 0% 5%; }
+#about .logo-black {
+  height: 100px; }
+#about .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #about .menu-black a {
+    color: black; }
+  #about .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #about .menu-black .home {
+    border: 1px solid transparent; }
+  #about .menu-black .work {
+    border: 1px solid transparent; }
+  #about .menu-black .about {
+    border: 1px solid transparent; }
+  #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
+    border: 1px solid black; }
+#about h1 {
+  font-weight: 300;
+  text-align: center;
+  font-size: 48px;
+  margin: 2%; }
+#about .about-flex {
+  display: flex;
+  justify-content: space-around; }
+#about .personal-info {
+  width: 40%;
+  border: 1px solid black; }
+  #about .personal-info p {
+    font-size: 20px;
     font-weight: 300;
-    margin-right: 5%; }
-    #about .menu-black a {
-      color: black; }
-    #about .menu-black li {
-      list-style: none;
-      float: left;
-      margin: 0% 0% 0% 0%;
-      font-size: 24px;
-      padding: 0px 20px 0px 20px; }
-    #about .menu-black .home {
-      border: 1px solid transparent; }
-    #about .menu-black .work {
-      border: 1px solid transparent; }
-    #about .menu-black .about {
-      border: 1px solid transparent; }
-    #about .menu-black .home:hover, #about .menu-black .work:hover, #about .menu-black .about:hover {
-      border: 1px solid black; }
-  #about .content h1, #about .content h2, #about .content h3 {
-    font-weight: 300;
-    text-align: center; }
+    margin: 5%; }
+#about .skills-interests {
+  display: flex;
+  justify-content: space-around; }
+#about .skills h2, #about .interests h2 {
+  font-weight: 300;
+  text-decoration: underline; }
+#about .links h2 {
+  font-weight: 300;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10%; }
+#about .links a {
+  margin: 7%; }
+#about .contact h2 {
+  font-weight: 300;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 15%; }
+#about .contact p {
+  text-align: center; }
+#about .pictures {
+  width: 40%; }
+  #about .pictures .bobsled {
+    width: 70%; }
+  #about .pictures .stc {
+    width: 30%; }
+  #about .pictures .wf {
+    width: 40%; }
+  #about .pictures .track {
+    width: 70%; }
+  #about .pictures .TIY {
+    width: 70%; }
 
 #jubala * {
   background: #F8F9FE;

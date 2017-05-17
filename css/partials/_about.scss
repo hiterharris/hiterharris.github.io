@@ -1,7 +1,12 @@
 #about {
-background:$background;
-* {
+body {
+  background:$background;
   font-family: $primary-font, $secondary-font;
+  list-style:none;
+}
+h1 {
+  margin:0;
+  padding:20px;
 }
 nav {
   display:flex;
@@ -41,16 +46,75 @@ nav {
     border:1px solid black;
   }
 }
-
-.content {
-  h1, h2, h3 {
+h1 {
+  font-weight: 300;
+  text-align:center;
+  font-size:48px;
+  margin:2%;
+}
+.about-flex {
+  display:flex;
+  justify-content: space-around;
+}
+.personal-info {
+  width:40%;
+  p {
+    font-size:20px;
+    font-weight: 300;
+    margin:5%;
+  }
+  border:1px solid black;
+}
+.skills-interests {
+  display:flex;
+  justify-content: space-around;
+}
+.skills, .interests {
+  h2 {
     font-weight:300;
+    text-decoration: underline;
+  }
+}
+.links {
+  h2 {
+    font-weight: 300;
+    text-align: center;
+    text-decoration: underline;
+    margin-top:10%;
+  }
+  a {
+    margin:7% ;
+  }
+}
+.contact {
+  h2 {
+    font-weight:300;
+    text-align: center;
+    text-decoration: underline;
+    margin-top:15%;
+  }
+  p {
     text-align: center;
   }
 }
-
-
-
+.pictures {
+  width:40%;
+  .bobsled {
+    width:70%;
+  }
+  .stc {
+    width:30%
+  }
+  .wf {
+    width:40%;
+  }
+  .track {
+    width:70%;
+  }
+  .TIY {
+    width:70%;
+  }
+}
 
 
 
