@@ -92,7 +92,7 @@ nav {
   flex-wrap: wrap;
 }
 .web-img-container{
-  width: 500px;
+  width:40%;
   margin:2%;
 }
 
@@ -106,10 +106,10 @@ nav {
   margin: 5% 10% 0% 10%;
 }
 .jubala {
-  width:50%;
+  width:75%;
 }
 .therooms {
-  width:50%;
+  width:75%;
 }
 .btnTop {
   height:50px;
@@ -128,10 +128,23 @@ nav {
   height:30px;
   padding-top:3px;
 }
-
 hr {
   width:75%;
   margin-top:5%;
 }
-
-// -----------Media Queries------------
+.designs-title {
+  font-size:48px;
+  margin-top:10%;
+}
+.weather-app {
+  width:50%;
+}
+.runkeeper {
+  width:50%;
+}
+.delta {
+  width:50%;
+}
+.united {
+  width:100%;
+}

@@ -528,7 +528,7 @@ nav {
   flex-wrap: wrap; }
 
 .web-img-container {
-  width: 500px;
+  width: 40%;
   margin: 2%; }
 
 .web-img {
@@ -540,10 +540,10 @@ nav {
   margin: 5% 10% 0% 10%; }
 
 .jubala {
-  width: 50%; }
+  width: 75%; }
 
 .therooms {
-  width: 50%; }
+  width: 75%; }
 
 .btnTop {
   height: 50px;
@@ -565,5 +565,21 @@ nav {
 hr {
   width: 75%;
   margin-top: 5%; }
+
+.designs-title {
+  font-size: 48px;
+  margin-top: 10%; }
+
+.weather-app {
+  width: 50%; }
+
+.runkeeper {
+  width: 50%; }
+
+.delta {
+  width: 50%; }
+
+.united {
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
