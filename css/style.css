@@ -129,6 +129,8 @@
   margin: 2.5% 5% 0% 5%;
   padding: 0px 0px 25px 0px;
   line-height: 2; }
+#jubala .project-preview h2 {
+  text-align: center; }
 #jubala iframe {
   transform: scale(0.75); }
 #jubala .tools-links {
