@@ -570,6 +570,10 @@ hr {
   font-size: 48px;
   margin-top: 10%; }
 
+.mobile-designs {
+  display: flex;
+  justify-content: space-around; }
+
 .weather-app {
   width: 50%; }
 
