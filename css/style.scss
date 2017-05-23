@@ -4,6 +4,7 @@
 @import "partials/_goodreads.scss";
 @import "partials/_savinggrace.scss";
 @import "partials/_mediaqueries.scss";
+@import "partials/_monkeybread.scss";
 
 * {
   font-family:$primary-font, $secondary-font;
@@ -92,6 +93,7 @@ nav {
 }
 .web-img-container{
   width: 500px;
+  margin:2%;
 }
 
 .web-img{

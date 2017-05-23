@@ -367,6 +367,91 @@
 
   #jubala .sketches img {
     width: 60%; } }
+#monkeybread * {
+  background: #F8F9FE;
+  font-family: "lato", "sans-serif";
+  list-style: none; }
+#monkeybread h1 {
+  margin: 0;
+  padding: 20px; }
+#monkeybread nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#monkeybread .logo {
+  margin: 1% 0% 0% 5%; }
+#monkeybread .logo-black {
+  height: 100px; }
+#monkeybread .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #monkeybread .menu-black a {
+    color: black; }
+  #monkeybread .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #monkeybread .menu-black .home {
+    border: 1px solid transparent; }
+  #monkeybread .menu-black .work {
+    border: 1px solid transparent; }
+  #monkeybread .menu-black .about {
+    border: 1px solid transparent; }
+  #monkeybread .menu-black .home:hover, #monkeybread .menu-black .work:hover, #monkeybread .menu-black .about:hover {
+    border: 1px solid black; }
+#monkeybread .project-content h1, #monkeybread .project-content h2, #monkeybread .project-content h3 {
+  font-weight: 300; }
+#monkeybread .project-title {
+  text-align: center; }
+#monkeybread .flex-content {
+  display: flex; }
+#monkeybread .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 0 2%;
+  padding: 0px 25px 25px 0px;
+  line-height: 2; }
+#monkeybread .project-preview {
+  width: 50%;
+  margin: 0 2%; }
+  #monkeybread .project-preview img {
+    width: 100%; }
+  #monkeybread .project-preview h1 {
+    text-align: center;
+    color: black;
+    text-decoration: inherit; }
+#monkeybread .tools-links {
+  border: 1px solid black;
+  margin-top: 10%; }
+  #monkeybread .tools-links li {
+    margin: 5%; }
+#monkeybread .logo-design {
+  text-align: center; }
+  #monkeybread .logo-design img {
+    margin: 2%; }
+#monkeybread .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #monkeybread .sketches img {
+    width: 40%;
+    margin: 0 50px; }
+#monkeybread .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #monkeybread .wireframes img {
+    width: 40%;
+    margin: 0 50px; }
+#monkeybread .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #monkeybread .mockups img {
+    width: 25%;
+    margin: 10px 50px;
+    border: 1px solid black; }
+
 * {
   font-family: "lato", "sans-serif"; }
 
@@ -443,7 +528,8 @@ nav {
   flex-wrap: wrap; }
 
 .web-img-container {
-  width: 500px; }
+  width: 500px;
+  margin: 2%; }
 
 .web-img {
   width: 90%; }
