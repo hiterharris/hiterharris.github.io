@@ -156,7 +156,7 @@
   #jubala .mockups img {
     height: 50vh;
     margin: 10px 50px;
-    border: 1px solid black; }
+    border: none; }
 
 #goodreads * {
   background: #F8F9FE;
