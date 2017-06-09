@@ -1,0 +1,119 @@
+#jubala {
+* {
+  background:$background;
+  font-family: $primary-font, $secondary-font;
+  list-style:none;
+}
+h1 {
+  margin:0;
+  padding:20px;
+}
+nav {
+  display:flex;
+  justify-content: space-between;
+  border-bottom:1px solid black;
+  padding-bottom: 20px;
+}
+.logo {
+  margin:1% 0% 0% 5%;
+}
+.logo-black {
+  height:100px;
+}
+.menu-black {
+  a {
+    color:$secondary-color;
+  }
+  font-weight:300;
+  margin-right:5%;
+  li {
+    list-style:none;
+    float:left;
+    margin:0% 0% 0% 0%;
+    font-size:24px;
+    padding:0px 20px 0px 20px;
+  }
+  .home {
+    border:1px solid transparent;
+  }
+  .work {
+    border:1px solid transparent;
+  }
+  .about {
+    border:1px solid transparent;
+  }
+  .home:hover, .work:hover, .about:hover {
+    border:1px solid black;
+  }
+}
+.project-content {
+  h1, h2, h3 {
+    font-weight:300;
+  }
+}
+.project-title {
+  text-align: center;
+}
+.flex-content{
+  display:flex;
+  flex-wrap: wrap-reverse;
+}
+.project-info {
+  border:1px solid black;
+  width:50%;
+  margin:2.5% 5% 0% 5%;
+  padding:0px 25px 25px 0px;
+  line-height: 2;
+}
+.project-preview {
+  text-align: center;
+}
+iframe {
+  transform: scale(0.75);
+}
+.tools-links {
+  border: 1px solid black;
+  margin-top:10%;
+  li {
+    margin:5%;
+  }
+}
+.sketches {
+  text-align:center;
+  margin:2% 0%;
+  img {
+    width:30%;
+    margin: 0 50px;
+  }
+}
+.wireframes {
+  text-align:center;
+  margin:2% 0%;
+  img {
+    height:60vh;
+    margin: 0 50px;
+  }
+}
+.mockups {
+  text-align:center;
+  margin:2% 0%;
+  img {
+    height:50vh;
+    margin: 10px 50px;
+    border:none;
+  }
+}
+// -----The Rooms------
+.therooms-preview {
+  margin: 10% 0% 0% 20%;
+}
+.tools-links {
+  margin:10% 0% 0% 25%;
+}
+.derek {
+  img {
+    width:75%;
+  }
+
+}
+}

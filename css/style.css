@@ -454,6 +454,89 @@
     margin: 10px 50px;
     border: 1px solid black; }
 
+#jubala * {
+  background: #F8F9FE;
+  font-family: "lato", "sans-serif";
+  list-style: none; }
+#jubala h1 {
+  margin: 0;
+  padding: 20px; }
+#jubala nav {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px; }
+#jubala .logo {
+  margin: 1% 0% 0% 5%; }
+#jubala .logo-black {
+  height: 100px; }
+#jubala .menu-black {
+  font-weight: 300;
+  margin-right: 5%; }
+  #jubala .menu-black a {
+    color: black; }
+  #jubala .menu-black li {
+    list-style: none;
+    float: left;
+    margin: 0% 0% 0% 0%;
+    font-size: 24px;
+    padding: 0px 20px 0px 20px; }
+  #jubala .menu-black .home {
+    border: 1px solid transparent; }
+  #jubala .menu-black .work {
+    border: 1px solid transparent; }
+  #jubala .menu-black .about {
+    border: 1px solid transparent; }
+  #jubala .menu-black .home:hover, #jubala .menu-black .work:hover, #jubala .menu-black .about:hover {
+    border: 1px solid black; }
+#jubala .project-content h1, #jubala .project-content h2, #jubala .project-content h3 {
+  font-weight: 300; }
+#jubala .project-title {
+  text-align: center; }
+#jubala .flex-content {
+  display: flex;
+  flex-wrap: wrap-reverse; }
+#jubala .project-info {
+  border: 1px solid black;
+  width: 50%;
+  margin: 2.5% 5% 0% 5%;
+  padding: 0px 25px 25px 0px;
+  line-height: 2; }
+#jubala .project-preview {
+  text-align: center; }
+#jubala iframe {
+  transform: scale(0.75); }
+#jubala .tools-links {
+  border: 1px solid black;
+  margin-top: 10%; }
+  #jubala .tools-links li {
+    margin: 5%; }
+#jubala .sketches {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .sketches img {
+    width: 30%;
+    margin: 0 50px; }
+#jubala .wireframes {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .wireframes img {
+    height: 60vh;
+    margin: 0 50px; }
+#jubala .mockups {
+  text-align: center;
+  margin: 2% 0%; }
+  #jubala .mockups img {
+    height: 50vh;
+    margin: 10px 50px;
+    border: none; }
+#jubala .therooms-preview {
+  margin: 10% 0% 0% 20%; }
+#jubala .tools-links {
+  margin: 10% 0% 0% 25%; }
+#jubala .derek img {
+  width: 75%; }
+
 * {
   font-family: "lato", "sans-serif"; }
 
