@@ -15,8 +15,15 @@ $(document).ready(function(){
         }
   });
 
-
-  $('#btnTop').click(function(){
-    window.scrollTo(0,0);
+$('#btnTop').click(function(){
+  window.scrollTo(0,0);
   });
+
+$('.underline').hover(function() {
+  $(this).css("text-decoration", "underline");
+}, function() {
+  $(this).css("text-decoration", "none");
+}
+);
+
 });
