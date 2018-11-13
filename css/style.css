@@ -144,6 +144,10 @@
   margin-top: 10%; }
   #jubala .tools-links li {
     margin: 5%; }
+  #jubala .sec-title {
+    font-size: 42px;
+    margin: 0 0 2% 0;
+  }
 #jubala .sketches {
   text-align: center;
   margin: 2% 0%; }
@@ -315,7 +319,9 @@
     color: blue;
     text-decoration: inherit; }
 #savinggrace .tools-links {
-  margin-top: 10%; }
+  margin-top: 10%;
+  text-align: center;
+}
   #savinggrace .tools-links li {
     margin: 5%; }
   #savinggrace .tools-links li p {
@@ -326,6 +332,7 @@
     font-size: 20px;
     font-weight: 300;
     color: blue;
+    margin: 3%;
   }
 #savinggrace .sec-title {
   font-size: 42px;
@@ -518,24 +525,46 @@
   font-weight: 300; }
 #jubala .project-title {
   text-align: center; }
+#jubala .project-title h1 {
+  font-size: 42px;
+  padding: 50px;
+}
 #jubala .flex-content {
   display: flex;
   flex-wrap: wrap-reverse; }
 #jubala .project-info {
-  border: 1px solid black;
+  border: none  ;
   width: 50%;
-  margin: 2.5% 5% 0% 5%;
+  margin: 0% 5% 0% 5%;
   padding: 0px 25px 25px 0px;
   line-height: 2; }
+#jubala .project-info p {
+  font-size: 20px;
+  font-weight: 300;
+}
 #jubala .project-preview {
-  text-align: center; }
+  text-align: center;
+  margin-top: -3 !important;
+}
 #jubala iframe {
   transform: scale(0.75); }
 #jubala .tools-links {
-  border: 1px solid black;
+  border: none;
   margin-top: 10%; }
+#jubala .tools-margin {
+  margin: -25% 0% 0% 0% !important;
+}
   #jubala .tools-links li {
     margin: 5%; }
+  #jubala .tools-links p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  #jubala .tools-links a {
+    font-size: 20px;
+    font-weight: 300;
+    margin: 5%;
+  }
 #jubala .sketches {
   text-align: center;
   margin: 2% 0%; }
