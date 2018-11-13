@@ -42,12 +42,15 @@
   display: flex;
   justify-content: space-around; }
 #about .personal-info {
-  width: 40%;
-  border: 1px solid black; }
+  width: 50%;
+  margin-left: 5%;
+  /* border: 1px solid black; */
+}
   #about .personal-info p {
     font-size: 20px;
     font-weight: 300;
-    margin: 5%; }
+    margin: 0% 5% 10% 5%;
+  }
 #about .skills-interests {
   display: flex;
   justify-content: space-around; }
@@ -61,6 +64,9 @@
   margin-top: 10%; }
 #about .links a {
   margin: 7%; }
+#about .links-container {
+  text-align: center;
+}
 #about .contact h2 {
   font-weight: 300;
   text-align: center;
@@ -251,7 +257,7 @@
   list-style: none; }
 #savinggrace h1 {
   margin: 0;
-  padding: 20px; }
+   }
 #savinggrace nav {
   display: flex;
   justify-content: space-between;
@@ -283,15 +289,22 @@
 #savinggrace .project-content h1, #savinggrace .project-content h2, #savinggrace .project-content h3 {
   font-weight: 300; }
 #savinggrace .project-title {
-  text-align: center; }
+  text-align: center;}
+#savinggrace .project-title h1 {
+  font-size: 42px;
+  padding: 50px;
+}
 #savinggrace .flex-content {
   display: flex; }
 #savinggrace .project-info {
-  border: 1px solid black;
   width: 50%;
   margin: 0 2%;
   padding: 0px 25px 25px 0px;
   line-height: 2; }
+  #savinggrace .project-info p {
+    font-size: 20px;
+    font-weight: 300;
+  }
 #savinggrace .project-preview {
   width: 50%;
   margin: 0 2%; }
@@ -299,13 +312,25 @@
     width: 100%; }
   #savinggrace .project-preview h1 {
     text-align: center;
-    color: black;
+    color: blue;
     text-decoration: inherit; }
 #savinggrace .tools-links {
-  border: 1px solid black;
   margin-top: 10%; }
   #savinggrace .tools-links li {
     margin: 5%; }
+  #savinggrace .tools-links li p {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  #savinggrace .tools-links li a {
+    font-size: 20px;
+    font-weight: 300;
+    color: blue;
+  }
+#savinggrace .sec-title {
+  font-size: 42px;
+  margin: 0 0 2% 0;
+}
 #savinggrace .logo-design {
   text-align: center; }
   #savinggrace .logo-design img {
