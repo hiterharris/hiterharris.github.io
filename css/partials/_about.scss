@@ -32,6 +32,9 @@ nav {
     margin:0% 0% 0% 0%;
     font-size:24px;
     padding:0px 20px 0px 20px;
+    @media(max-width: 800px) {
+      padding:0px 10px 0px 10px;
+    }
   }
   .home {
     border:1px solid transparent;
@@ -65,7 +68,7 @@ h1 {
 .personal-info {
   width:40%;
   @media(max-width: 800px) {
-    width: 80%;
+    width: 90%;
     text-align: center;
   }
   p {
@@ -86,6 +89,9 @@ h1 {
 }
 .links {
   text-align: center;
+  @media(max-width: 800px) {
+    margin: 10%;
+  }
   h2 {
     font-weight: 300;
     text-align: center;
@@ -112,7 +118,7 @@ h1 {
 .pictures {
   width:40%;
   @media(max-width: 800px) {
-    width: 80%;
+    width: 90%;
     text-align: center;
   }
   .bobsled {
