@@ -55,9 +55,21 @@
   display: flex;
   justify-content: space-around;
 }
+@media (max-width: 800px) {
+  #about .about-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
 #about .personal-info {
   width: 40%;
-  border: 1px solid black;
+}
+@media (max-width: 800px) {
+  #about .personal-info {
+    width: 80%;
+    text-align: center;
+  }
 }
 #about .personal-info p {
   font-size: 20px;
@@ -72,6 +84,9 @@
   font-weight: 300;
   text-decoration: underline;
 }
+#about .links {
+  text-align: center;
+}
 #about .links h2 {
   font-weight: 300;
   text-align: center;
@@ -80,6 +95,7 @@
 }
 #about .links a {
   margin: 7%;
+  color: blue;
 }
 #about .contact h2 {
   font-weight: 300;
@@ -92,6 +108,12 @@
 }
 #about .pictures {
   width: 40%;
+}
+@media (max-width: 800px) {
+  #about .pictures {
+    width: 80%;
+    text-align: center;
+  }
 }
 #about .pictures .bobsled {
   width: 70%;
@@ -106,6 +128,9 @@
   width: 70%;
 }
 #about .pictures .TIY {
+  width: 70%;
+}
+#about .pictures .lambda {
   width: 70%;
 }
 
